@@ -68,7 +68,7 @@ func IsStandardBaudRate(baudRate uint) bool { return StandardBaudRates[baudRate]
 // OpenOptions is the struct containing all of the options necessary for
 // opening a serial port.
 type OpenOptions struct {
-	// The name of the port, e.g. "/dev/tty.usbserial-A8008HlV".
+	// The name of the port, e.g. "/dev/ttyUSB0".
 	PortName string
 
 	// The baud rate for the port.

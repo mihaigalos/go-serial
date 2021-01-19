@@ -38,7 +38,7 @@ Set up a `serial.OpenOptions` struct, then call `serial.Open`. For example:
 
     // Set up options.
     options := serial.OpenOptions{
-      PortName: "/dev/tty.usbserial-A8008HlV",
+      PortName: "/dev/ttyUSB0",
       BaudRate: 19200,
       DataBits: 8,
       StopBits: 1,

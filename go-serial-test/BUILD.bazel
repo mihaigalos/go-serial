@@ -1,0 +1,15 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "go-serial-test_lib",
+    srcs = ["go-serial-test.go"],
+    importpath = "github.com/mihaigalos/intel-hex-parser/go-serial-test",
+    visibility = ["//visibility:private"],
+    deps = ["//serial"],
+)
+
+go_binary(
+    name = "go-serial-test",
+    embed = [":go-serial-test_lib"],
+    visibility = ["//visibility:public"],
+)

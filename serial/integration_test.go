@@ -25,7 +25,7 @@ import "testing"
 import "time"
 
 const (
-	DEVICE = "/dev/tty.usbserial-A8008HlV"
+	DEVICE = "/dev/ttyUSB0"
 )
 
 //////////////////////////////////////////////////////
