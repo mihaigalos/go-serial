@@ -11,7 +11,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/mihaigalos/intel-hex-parser/serial"
+	"github.com/mihaigalos/go-serial/serial"
 )
 
 func usage() {

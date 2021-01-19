@@ -9,7 +9,7 @@ go_library(
         "open_windows.go",
         "serial.go",
     ],
-    importpath = "github.com/mihaigalos/intel-hex-parser/serial",
+    importpath = "github.com/mihaigalos/go-serial/serial",
     visibility = ["//visibility:public"],
     deps = select({
         "@io_bazel_rules_go//go/platform:android": [
